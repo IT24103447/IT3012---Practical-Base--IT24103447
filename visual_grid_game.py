@@ -2,6 +2,8 @@
 import random
 import tkinter as tk
 
+# IT24103447 - Lab03 - Step 1.3 - imported SearchAgent for visual search simulation
+from agent import SearchAgent
 
 class VisualGridHuntGame:
     """A flexible Pacman-style grid environment with support for configurable opponents and larger scales."""
@@ -273,6 +275,9 @@ class GridGameGUI:
 
         # IT24103447 - create Simple Reflex Agent
         #agent = SimpleReflexAgent()
+
+        # IT24103447 - Step 1.3: create Model-Based Agent
+        # agent = ModelBasedAgent()
 
         # IT24103447 - Step 1.3: create Model-Based Agent
         agent = ModelBasedAgent()
